@@ -1,0 +1,100 @@
+body {
+    background-color: #f6f5f7;
+}
+
+.main-container {
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin: 7% 23%;
+    border-radius: 18px;
+    box-shadow: 5px 10px 18px grey;
+}
+
+.side1 {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+}
+
+.side2 {
+    position: relative;
+    margin-left: 401px;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    height: 500px;
+    width: 400px;
+    text-align: center;
+
+}
+
+/* HEADING */
+h2,
+.align-mid {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.side2 h2 {
+    color: #f6f5f7;
+    font-size: 35px;
+
+    padding-top: 35%;
+}
+
+/* side2 font and padding */
+.side2 p {
+    color: white;
+    padding: 0 30px;
+}
+
+.side1 h2 {
+    padding-top: 15%;
+}
+
+/* BUTTON */
+button {
+    width: 35%;
+}
+
+/* Icon */
+.custom-icon {
+    padding-right: 2%;
+}
+
+.input-box {
+    margin: 25px 25px auto 30px;
+}
+
+
+.left {
+    float: left;
+    margin-left: 30px;
+}
+
+.custom-btn {
+    margin-right: -25px;
+}
+
+p {
+    padding-top: 3%;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+/* icon color  */
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-google-plus-g:hover {
+    color: red;
+}
+
+.fa-linkedin-in:hover {
+    color: blue;
+}
